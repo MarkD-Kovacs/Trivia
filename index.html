@@ -27,7 +27,7 @@
                 const check = document.querySelector("#check");
                 const input = document.querySelector("input");
                 check.addEventListener("click", function(){
-                    if (input.value == "2"){
+                    if (input.value == "243"){
                         input.style.backgroundColor = "green";
                         text2.innerHTML = "Corect!";
                     }
@@ -48,17 +48,19 @@
 
         <div class="container">
             <div class="section">
-                <h2>Formulă</h2>
+                <h2>Formule</h2>
+                <h3>Aria unui pătrat = latură * latură</h3>
                 <h3>Volumul unui cub = latură * latură * latură</h3>
+                <h3>Pitagora: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></h3>
             </div>
             <hr>
             <div class="section">
                 <h2>Partea 1</h2>
                 <!-- TODO: Add multiple choice question here -->
-                <h3>Latura unui cub este de 5 cm. Cât este volumul acestuia?</h3>
-                <button class="incorrect">120 cm3</button>
-                <button class="incorrect">125 cm3</button>
-                <button class="correct">100 cm3</button>
+                <h3>Latura unui pătrat este de 7 cm. Cât este aria acestuia?</h3>
+                <button class="incorrect">36 cm3</button>
+                <button class="incorrect">40 cm3</button>
+                <button class="correct">49 cm3</button>
                 <button class="incorrect">50 cm3</button>
                 <p id="text1"></p>
             </div>
@@ -66,7 +68,7 @@
             <div class="section">
                 <h2>Partea 2</h2>
                 <!-- TODO: Add free response question here -->
-                <h3>Un cub are volumul de 8 cm3. Câți cm are latura lui?</h3>
+                <h3>Un cub are latura de 7 cm. Câți cm3 are latura lui?</h3>
                 <input>
                 <button id="check">Verifică</button>
                 <p id="text2"></p>
